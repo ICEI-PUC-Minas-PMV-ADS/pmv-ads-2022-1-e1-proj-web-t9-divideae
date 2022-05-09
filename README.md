@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# DivideAÊ
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+` Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`1º semestre`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Igor Henrique da Costa Morais
+* Diego Alberto Sobrinho
+* Paula Lavínia Alves Perret
+* Andre Felipe Gomes Pinto
+* Cristiano Ferreira De Mattos
 
 ## Orientador
 
-* Nome completo do professor 1
+* Daniela Carvalho Monteiro Ferreira
 
 ## Instruções de utilização
 
