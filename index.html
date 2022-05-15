@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/tutorial.css">
     
@@ -25,8 +26,9 @@
                     
                     <div class="col-md-2 text-center">
                         
-                        <div class="menu btn btn-warning btn-lg">
-                            <a href=""><i class="fas fa-check"></i> CHECK-IN</a>
+                        <div class="check">
+                            <a></a>          </a>
+                            
                         </div>
                         <br>
                         <div class="menu btn btn-warning btn-lg">
@@ -34,27 +36,75 @@
                         </div>
                         <br>
                         <div class="menu btn btn-warning btn-lg">
-                            <a href="#openModal"><i class="far fa-question-circle"></i> Tutorial</a>
-                            <div id="openModal" class="modalDialog">
-                                <div>
-                                    <a href="#close" title="close" class="close">X</a>
-                                    <h2>SAIBA COMO FUNCIONA</h2>
-                                    <P><B>CHECK-IN:</B>
-                                        Quando selecionado a opção Check-In, digite seu nome ou apelido;
-                                        Escolha se irá dividir os consumos coletivos (produtos que são consumidos por todos ex.: cerveja);
-                                        Selecione a opção OK. (neste momento será realizado o registro de sua chegada na mesa)
-                                    </P>
-                                    <P><B>CARDÁPIO:</B>
-                                        Quando Selecionado a opção cardápio, estará disponivel as opções Refeições e Porções, Sanduiches
-                                        e Bebidas;
-                                        Para saber o detalhamento do produto basta selecionar o item desejado;
-                                        Após selecionado o produto, basta clicar em PEDIR, informar se o pedido é para consumo
-                                        INDIVIDUAL (selecione o nome da pessoa que fez o check-in, informando que o produto é para
-                                        consumo individual e não terá seu valor dividido com as outas pessoas da mesa) ou COLETIVO.
-                                        Selecione a opção OK. (neste momento será realizado o registro de sua chegada na mesa).
-                                    </P>
-                                </div>    
-                                </div>
+                            <a
+href="#openModal"><i
+class="far fa-question-circle"></i>
+ Tutorial</a>
+
+
+<div
+id="openModal"
+class="modalDialog">
+
+
+<div>
+
+
+<a
+href="#close"
+title="close"
+class="close">X</a>
+
+
+<h2>SAIBA COMO FUNCIONA</h2>
+
+
+<P><B>CHECK-IN:</B>
+
+
+Quando selecionado a opção Check-In, digite seu nome ou apelido;
+
+
+Escolha se irá dividir os consumos coletivos (produtos que são consumidos por todos ex.: cerveja);
+
+
+Selecione a opção OK. (neste momento será realizado o registro de sua chegada na mesa)
+
+
+</P>
+
+
+<P><B>CARDÁPIO:</B>
+
+
+Quando Selecionado a opção cardápio, estará disponivel as opções Refeições e Porções, Sanduiches
+
+
+e Bebidas;
+
+
+Para saber o detalhamento do produto basta selecionar o item desejado;
+
+
+Após selecionado o produto, basta clicar em PEDIR, informar se o pedido é para consumo
+
+
+INDIVIDUAL (selecione o nome da pessoa que fez o check-in, informando que o produto é para
+
+
+consumo individual e não terá seu valor dividido com as outas pessoas da mesa) ou COLETIVO.
+
+
+Selecione a opção OK. (neste momento será realizado o registro de sua chegada na mesa).
+
+
+</P>
+
+
+</div>
+
+
+</div>
                         </div>
                         <br>
                         <div class="menu btn btn-warning btn-lg">
@@ -129,22 +179,43 @@
                 </div>   
             </div>
         </body>
+        
+
+            </div>
+            <label for="modal-promocao"class="Abrirmodal">Check In</label>
+            <input type="checkbox"
+            id="modal-promocao"
+            class="checkboxModal">
+
+            <div class="modal">
+                <label for="modal-promocao"class="fecharmodal">X</label>
+              
+                <div class="conteudomodal">
+                   
+                    <h2 class="subtitulo">Check-In</h2>
+                    <form>
+                        <input type="text" class="input" placeholder="Digite seu nome aqui">
+                        <br>
+                        <h3>Irá dividir a conta com seus amigos?</h3>
+                        <input type="button" class="button1" value="Sim">
+                        <input type="button" class="button2" value="Não">
+                        <br>
+                        <h4>Todos os pedidos marcados como consumo coletivo terão seu valor dividido com seu grupo!</h4>
+                        <input type="button" class="button3" value="Ok">
+                    </form>
+                </div>
+            </div>
+                </div>
+                
         <footer class="container-fluid">
             <div class="footer">
                 <p><i class="fas fa-map-marker-alt"></i> Belo Horizonte, MG</p>
                 <p>&copy Desenvolvimento Web</p>
               </div>
+
         </footer>
+
+            
+        
     </html>
                     
-                    
-                   
-                    
-                        
-                    
-                    
-                    
-                
-                    
-                    
-
