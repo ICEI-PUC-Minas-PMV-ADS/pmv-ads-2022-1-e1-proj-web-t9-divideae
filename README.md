@@ -10,7 +10,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Igor Henrique da Costa Morais
+* Igor Henrique da Costa Morais  teste
 * Diego Alberto Sobrinho
 * Paula Lavínia Alves Perret
 * Andre Felipe Gomes Pinto
