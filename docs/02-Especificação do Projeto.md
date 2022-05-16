@@ -1,91 +1,198 @@
-# Especificações do Projeto
+## Especificação do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A especificação do projeto em questão e dos tópicos que os envolve foi estruturada no debate entre os integrantes do grupo, que a partir de relatos pessoais e narrativas de outros interlocutores propuseram a criação de uma solução que abraçasse uma tecnologia que facilitasse a vida daqueles indivíduos que já se depararam com o desgaste e tempo despendido ocasionado pela divisão da conta em bares ou restaurantes. Pensando nisso, as personas criadas para o projeto estão representadas baseadas no nosso processo criativo ao longo do desenvolvimento do projeto.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas selecionadas durante o nosso debate acerca do tema escolhido pelo nosso grupo estão representadas a seguir:
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+| ![](RackMultipart20220516-1-6ekmfl_html_337df43031e44ea0.png) | **Rafaela Alves Guimarães** |
+| --- | --- |
+|
+- **Idade** : 30
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+- **Ocupação** : Empreendedora, dona de uma startup de sucesso que atua na área de crowdfunding.
+- **Gênero:** Feminino
+- **Estado Civil:** Solteira
+ | **Aplicativos**
 
-## Histórias de Usuários
+- Instagram
+- Linkedin
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+ |
+| **Motivações**
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+- Gosta de agilizar e facilitar processos além da vida profissional.
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+- Precisa de momentos de descontração devido aos desgastes advindos do trabalho.
 
-## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+
+ | **Frustrações:**
+
+- Já passou por situações em que pagou valores da conta de restaurantes e bares erroneamente entre ela e seus amigos.
+
+ | **História**
+
+- Possui uma rotina cansativa de trabalho e aos finais de semana gosta de sair com os amigos para restaurantes e bares. Para ela, esses momentos devem ser o menos desgastante possível.
+
+
+ |
+
+|
+ ![](RackMultipart20220516-1-6ekmfl_html_3d9770a0e1416b80.png) | **Fernando Almeida** |
+| --- | --- |
+|
+- **Idade** : 26
+- **Ocupação** : Estudante de Engenharia de Software, estagiário de uma empresa que atua na criação de games.
+- **Gênero:** Masculino
+- **Estado Civil:** Solteiro
+
+ | **Aplicativos:**
+
+- Facebook
+- Linkedin
+- Instagram
+ |
+| **Motivações**
+
+- Mindset voltado para automatização de processos em detrimento de processos manuais e demorados.
+
+
+- Já possui contato direto com a área da tecnologia e acredita que ela seja uma facilitadora de diversas situações na vida dos indivíduos.
+
+ | **Frustrações**
+
+- Restaurantes e bares que não utilizam a tecnologia a seu favor e requerem esforço de seus clientes no momento da divisão da conta, obrigando-os a fazerem a divisão de forma manual.
+
+ | **História**
+
+- É uma pessoa extremamente criativa e prática. Gostaria que cada vez mais a tecnologia fosse utilizada no dia-a-dia com o intuito, principalmente, de democratizar, disponibilizar informações e acelerar processos a partir de soluções inteligentes.
+ |
+
+| ![](RackMultipart20220516-1-6ekmfl_html_a99238fcb1cb9497.png)
+ | **Luiz Gonçalves** |
+| --- | --- |
+|
+- **Idade** : 43
+- **Ocupação** : Garçom **Gênero:** Masculino
+- **Estado Civil:** Casado
+
+ | **Aplicativos:**
+
+- Facebook
+- Instagram
+ |
+| **Motivações**
+
+- Agilizar o seu trabalho, possibilitando o atendimento de mais mesas, podendo dessa forma receber mais gorjetas.
+
+
+- Não ter que lidar com situações de estresse e desgaste durante o trabalho.
+
+ | **Frustrações**
+
+- Em diversas situações perdeu tempo de seu trabalho dividindo a conta de clientes ou conferindo, se, de fato, a divisão realizada pelos clientes foi feita de forma correta.
+
+
+- Já passou pela situação na qual conferiu a divisão dos valores da conta de forma errada e, como consequência, teve o dinheiro descontado do seu salário.
+
+ | **História**
+
+- Trabalha como garçom há mais de 10 anos e precisa ser o mais eficiente e ágil possível durante os atendimentos.
+ |
+
+| ![](RackMultipart20220516-1-6ekmfl_html_cad6736f1a87d921.png) | **Marisa Bastos** |
+| --- | --- |
+|
+- **Idade** : 56
+
+- **Ocupação** : Dona de um restaurante.
+- **Gênero:** Feminino
+- **Estado Civil:** Divorciada
+ | **Aplicativos**
+
+- Instagram
+- Facebook
+
+ |
+| **Motivações**
+
+- Maior retorno financeiro.
+
+
+- Entregar a melhor experiência que o seu restaurante possa proporcionar aos seus clientes.
+
+
+
+ | **Frustrações:**
+
+- Prejuízos financeiros durante a finalização de contas no restaurante.
+
+
+- Feedbacks negativos de clientes.
+
+ | **História**
+
+- Administra seu restaurante sempre prezando por alternativas atrativas e facilitadoras para seus clientes.
+
+ |
+
+## Histórias de usuários
+
+Após a definição e caracterização das personas, construímos suas respectivas histórias de usuário.
+
+| **Eu como … [PERSONA]** | … **quero/desejo …
+ [O QUE] **| …** para ....****[POR QUE]** |
+| --- | --- | --- |
+| Rafaela Alves Guimarães | Aproveitar momentos com os amigos nos bares e restaurantes que frequento sem me preocupar com a divisão da conta entre o grupo. | Poder socializar e desestressar da rotina de trabalho. |
+| Fernando Almeida | Poder utilizar recursos tecnológicos para facilitar e agilizar circunstâncias cotidianas como por exemplo dividir a conta em um bar. | gastar menos tempo fazendo contas manuais ao ter que pagar a conta final do estabelecimento. |
+| Luiz Gonçalves | Poder atender mais mesas durante o meu expediente de trabalho. | Ter um retorno financeiro maior. |
+| Marisa Bastos | Possuir serviços diferenciados no meu restaurante. | Atrair mais clientes, receber feedbacks positivos do estabelecimento que gerencio e aumentar os ganhos do meu negócio. |
+
+## Requisitos do Projeto
+
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| **ID** | **Descrição** | **Prioridade** |
+| --- | --- | --- |
+| RF-01 | O site deve apresentar uma prévia de todas as páginas na página inicial. | Alta |
+| RF-02 | O site deve permitir a exclusão de produtos em excesso do carrinho de compras. | Alta |
+| RF-03 | O site deve permitir ao usuário avaliar os produtos do bar/restaurante. | Média |
+| RF-04 | O site deve calcular a divisão de contas automaticamente. | Alta |
+| RF-05 | O site deve permitir que o usuário faça check-in. | Alta |
+| RF-06 | O site deve apresentar a opção &quot;individual&quot; e &quot;coletivo&quot; na aba de contas. | Baixa |
+|
+ |
+ |
+ |
+|
+ |
+ |
+ |
 
+### Requisitos não funcionais
 
-### Requisitos não Funcionais
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+| **ID** | **Descrição** | **Prioridade** |
+| --- | --- | --- |
+| RNF-01 | O site deve exibir um painel de instruções para o usuário. | Alta |
+| RNF-02 | O site deve ser responsivo atendendo também smartphones. | Média |
+| RNF-03 | O site deve ser multiplataformas (Mozilla, Chrome, Microsoft Edge etc.) | Baixa |
+| RNF-04 | O site deve atender às normas legais e às leis de consumo. | Baixa |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+### Restrições
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
 
-## Restrições
+| **ID** | **Descrição** |
+| --- | --- |
+| RE-01 | O projeto deve se restringir às tecnologias básicas da Web no Frontend |
+| RE-02 | O projeto deve ser entregue no prazo estipulado. |
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+##
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
