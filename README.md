@@ -44,9 +44,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 <li><a href="docs/11-Referências.md"> Referências</a></li>
 </ol>
 
-# Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
 
 # Apresentação
 
