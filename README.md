@@ -22,7 +22,11 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+* Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+* Descompacte o arquivo em uma pasta específica;
+* Abra o Visual Studio Code e execute o Live Server;
+* Abra um navegador de Internet e informe a seguinte URL:
+* http://localhost:5500/index.html 
 
 # Documentação
 
