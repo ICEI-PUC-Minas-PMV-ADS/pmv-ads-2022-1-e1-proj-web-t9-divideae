@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
+.titulo{
+    font-family: 'Indie Flower', cursive;
+}
 
 .box {
     background-color: rgb(204, 126, 9);
@@ -27,6 +31,9 @@
     margin-top: 70px; 
     padding-top: 10px;
 }
+a {
+     color: inherit; 
+     text-decoration: none} 
 .menu {
     background-color: rgb(204, 126, 9);
     border-radius: 30px;
