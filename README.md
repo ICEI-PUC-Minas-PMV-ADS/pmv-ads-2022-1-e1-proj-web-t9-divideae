@@ -15,6 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Paula Lavínia Alves Perret
 * Andre Felipe Gomes Pinto
 * Cristiano Ferreira De Mattos
+* Lucian Mattedi Sarmento
 
 ## Orientador
 
